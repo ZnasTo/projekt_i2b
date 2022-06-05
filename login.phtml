@@ -1,0 +1,33 @@
+<?php
+
+    //include() no bueno
+    require("./htmlTopPlusNavigace.phtml");
+
+
+
+?>
+
+<h1>Přihlášení</h1>
+
+<form method="post" >
+    <div class="login">
+        <div>
+            <label for="login">login</label>
+            <input type="text" name="login" id="login" required>
+        </div>
+        <div>
+            <label for="heslo">heslo</label>
+            <input type="password" name="heslo" id="heslo" required >
+        </div>
+        <input type="submit" name="prihlasit" value="prihlasit">
+        <div >
+        
+            <a href="registrace.php" >registruj se</a>
+        </div>
+
+    </div>
+</form>
+
+<?php
+require("./htmlBottom.html");
+?>

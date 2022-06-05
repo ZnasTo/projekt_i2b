@@ -1,0 +1,91 @@
+    body{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    margin: 0 auto;
+    width: 75%;
+}
+
+ul.navigace{
+    list-style-type: none; 
+    background-color: #002AEE;
+    margin:0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-size: 100% 100%;
+
+
+}
+li{
+    float: left;
+ 
+}
+li a{  
+    text-decoration: none;
+    font-size: 150%;
+    color: cornsilk;
+    display: block;
+    padding: 30px 25px;
+    
+    
+}
+.golem{
+    float: right;
+}
+.o_golem
+{   
+    margin: 0;
+    width: 65px;
+    height: 100%;
+    padding: 10px;
+}
+li :hover{
+    background-color:#1C44FF;
+}
+.banner
+{
+   width: 100%;
+
+}
+table, th, td{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+.vnitrek{
+    margin: 0 auto;
+    width: 50%;
+}
+h1{
+    text-align: center;
+}
+
+.foto{
+    margin-top: 10px;
+}
+
+#sekce{
+    margin-top: 10px;
+    line-height: 0;
+   
+    -webkit-column-count: 5;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           0px;
+}
+#sekce img{
+    width: 100% !important;
+    height: auto !important;
+}
+
+.login{
+    margin: 0 auto;
+    width: 20%;
+}
+.login input[type=submit]{
+    margin-top: 10px;
+}
